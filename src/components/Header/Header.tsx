@@ -1,4 +1,3 @@
-import React from "react";
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
@@ -19,17 +18,11 @@ const HeaderNav = styled.header`
   width: 100%;
 `;
 
-const HeaderNavItem = styled.div`
+const HeaderNavItem = styled.a`
   flex: 1 1;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
-
-const HeaderLogo = styled.img`
-  width: 45px;
-  height: 30px;
-  padding: 0 10px;
 `;
 
 const HeaderTitle = styled.h2`
@@ -38,10 +31,9 @@ const HeaderTitle = styled.h2`
 
 function Header() {
   return (
-    <HeaderWrapper id='header'>
+    <HeaderWrapper id="header">
       <HeaderNav>
         <HeaderNavItem>
-          <HeaderLogo src='kps-logo.png' />
           <HeaderTitle>King Post Studio</HeaderTitle>
         </HeaderNavItem>
         <HeaderNavItem>Work</HeaderNavItem>

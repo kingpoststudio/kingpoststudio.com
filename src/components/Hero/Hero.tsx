@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const HeroWrapper = styled.div`
   height: 100vh;
   width: 100%;
-  background: #999;
+  background: #CCC;
 `;
 
 function Hero() {

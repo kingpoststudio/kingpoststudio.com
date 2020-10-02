@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components";
+import { ReactElement } from 'react';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -12,7 +13,14 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-function MyApp({ Component, pageProps }) {
+interface AppProps {
+  Component: any;
+  pageProps: any;
+}
+
+function KPSApp(props: AppProps): ReactElement {
+  const { Component, pageProps } = props;
+
   return (
     <>
       <GlobalStyle />
@@ -21,4 +29,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default KPSApp;
