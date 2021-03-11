@@ -1,13 +1,7 @@
-import React from "react";
-
-import Header from "../src/components/Header/Header";
-import Hero from "../src/components/Hero/Hero";
-
 export default function Home() {
   return (
-    <>
-      <Header />
-      <Hero />
-    </>
+    <div style={{ padding: '20px' }}>
+      <img src="/kps-logo.png" height="60" />
+    </div>
   );
 }
