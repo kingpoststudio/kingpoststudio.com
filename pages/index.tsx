@@ -19,7 +19,7 @@ export default function Home() {
               <span className="sr-only">King Post Studio home page</span>
               <Logo />
             </button>
-            <h1 className="px-4">King Post Studio</h1>
+            <h1 className="px-4 sm:visible invisible">King Post Studio</h1>
           </div>
           <div className="flex flex-none pr-4 items-center" />
         </div>
