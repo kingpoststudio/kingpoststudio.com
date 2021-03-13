@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="bg-yellow-200 dark:bg-gray-700">
-      <div className="bg-yosemiteDay dark:bg-yosemiteNight bg-cover bg-center h-screen">
+      <div className="bg-yosemite-day dark:bg-yosemite-night bg-cover bg-center h-screen">
         <div className="flex flex-none justify-between top-0 z-40 w-full max-w-8xl mx-auto sticky h-20">
           <div className="flex flex-none pl-4 items-center text-red-600 dark:text-yellow-400">
             <button

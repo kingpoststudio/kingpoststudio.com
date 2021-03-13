@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: () => ({
-        yosemiteDay: 'url(/images/yosemite-day.png)',
-        yosemiteNight: 'url(/images/yosemite-night.png)',
+        'yosemite-day': 'url(/images/yosemite-day.png)',
+        'yosemite-night': 'url(/images/yosemite-night.png)',
       }),
     },
   },
