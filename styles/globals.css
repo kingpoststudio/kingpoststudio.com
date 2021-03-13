@@ -7,6 +7,5 @@
 @layer base {
     h1 {
         font-family: 'Grenze Gotisch';
-        @apply text-4xl;
     }
 }
