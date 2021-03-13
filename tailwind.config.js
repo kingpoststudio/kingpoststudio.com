@@ -7,6 +7,9 @@ module.exports = {
         'yosemite-day': 'url(/images/yosemite-day.png)',
         'yosemite-night': 'url(/images/yosemite-night.png)',
       }),
+      colors: {
+        'dark-gray': '#111111',
+      },
     },
   },
   variants: {
