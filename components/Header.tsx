@@ -16,7 +16,9 @@ export default function Header() {
         </div>
         <h1 className="text-4xl px-4 sm:visible invisible">King Post Studio</h1>
       </div>
-      <DarkModeToggle />
+      <div className="flex flex-none items-center">
+        <DarkModeToggle />
+      </div>
     </header>
   );
 }
