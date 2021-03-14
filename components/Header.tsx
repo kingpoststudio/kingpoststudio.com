@@ -7,8 +7,8 @@ export default function Header() {
   const setCurrentTheme = (): void => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
-    <header className="flex flex-none justify-between bg-white dark:bg-gray-800 top-0 z-50 w-full max-w-8xl mx-auto sticky h-20">
-      <div className="flex flex-none pl-4 items-center text-red-600 dark:text-yellow-400">
+    <header className="flex flex-none justify-between bg-white dark:bg-black top-0 z-50 w-full max-w-8xl mx-auto sticky h-20">
+      <div className="flex flex-none pl-4 items-center text-red-600">
         <button
           type="button"
           className="overflow-hidden w-auto"
