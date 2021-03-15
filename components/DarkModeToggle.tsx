@@ -19,15 +19,19 @@ export default function DarkModeToggle() {
   }
 
   return (
-    <div role="button" className="flex flex-none items-center h-auto w-auto my-auto rounded-full" onClick={handleThemeChange}>
+    <>
       <a.div
+        role="button"
         className="flex flex-none items-center h-12 w-12 my-auto rounded-full bg-yellow-300"
         style={{ opacity: opacity.interpolate((o: number) => 1 - o), transform }}
+        onClick={handleThemeChange}
       />
       <a.div
+        role="button"
         className="flex flex-none items-center h-12 w-12 -ml-12 my-auto rounded-full bg-red-600"
         style={{ transform: transform.interpolate((t: string) => `${t} rotateX(180deg)`), opacity }}
+        onClick={handleThemeChange}
       />
-    </div>
+    </>
   );
 }
