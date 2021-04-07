@@ -9,7 +9,6 @@ export default function Header() {
           <span className="sr-only">King Post Studio home page</span>
           <Logo />
         </div>
-        <h1 className="text-4xl px-4 sm:visible invisible">King Post Studio</h1>
       </div>
       <div className="flex flex-none items-center">
         <DarkModeToggle />
