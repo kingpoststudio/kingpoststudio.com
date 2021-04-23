@@ -1,6 +1,10 @@
 const Logo = ({ className }: { className?: string }) => (
   <div className={className}>
-    <img src="/images/logo-alt.png" style={{ width: '100px' }} />
+    <img
+      src="/images/kps-logo.png"
+      alt="KPS Logo"
+      style={{ width: '100px' }}
+    />
   </div>
 );
 
